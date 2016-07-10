@@ -2,7 +2,7 @@
 ## Web 3D-Scene Editor
 #### Virtual Reality Exhibitions and 360-degree videos
 
-##### Authors: Ríos Rodríguez, Alba , Martínez Rodríguez, Vicente
+##### Authors: Martínez Rodríguez, Vicente , Ríos Rodríguez, Alba
 
 ![Project Logo](http://i.imgur.com/qOO0QOZ.jpg)
 
