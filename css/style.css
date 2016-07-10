@@ -1,0 +1,451 @@
+html{
+	width:100%; height:100%; margin:0; padding:0;
+}
+
+body{
+	width:100%; height:100%; margin:0; padding:0;
+}
+
+
+/* ---------------------- Box Rooms -------------------------------- */
+#box_scene {
+    background-color: #d8ecf7;
+    width:500px; 
+    height:100px;
+    margin-top: 2%;
+    margin-left: 1%;
+    border: 1px solid #afcde3;
+}
+
+#escenas {
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+#escenas li {
+    
+    display: block;
+    float: left; 
+    margin-left: 1%;
+ }
+
+/* ---------------------- Box Sculptures ------------------------------ */
+#box_sculpture {
+    background-color: #E84855;
+    width:500px; 
+    height:100px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: 1px solid #afcde3;
+}
+
+#esculturas {
+    padding-left: 1%;
+    padding-bottom: 2%;
+}
+
+#esculturas li {
+    
+    display: block;
+    float: left; 
+    margin-left: 1%;
+}
+
+
+/* -------------------------- Boton Imagenes -------------------------- */
+.boton img {
+    width:70px; 
+    height:70px;
+}
+
+
+/* -------------------------- Imagenes Sculptures ---------------------- */
+
+#sculpture1 img {
+    border: 3px solid #73AD21;
+}
+#sculpture2 img {
+    border: 3px solid #73AD21;
+}
+#sculpture3 img {
+    border: 3px solid #73AD21;
+}
+#sculpture4 img {
+    border: 3px solid #73AD21;
+}
+#sculpture5 img {
+    border: 3px solid #73AD21;
+}
+#sculpture6 img {
+    border: 3px solid #73AD21;
+}
+
+/* -------------------------- Imagenes Rooms -------------------------- */
+
+#imagen1 img {
+    border: 3px solid #73AD21;
+}
+#imagen2 img {
+    border: 3px solid #73AD21;
+}
+#imagen3 img {
+    border: 3px solid #73AD21;
+}
+#imagen4 img {
+    border: 3px solid #73AD21;
+}
+#imagen5 img {
+    border: 3px solid #73AD21;
+}
+#imagen6 img {
+    border: 3px solid #73AD21;
+}
+
+/*
+#escenas li:hover {
+    border: 3px solid #1C1C1C;
+}
+
+#escenas li:active {
+    border: 3px solid #1C1C1C;
+}
+*/
+ #lienzo{
+    background-color: #c1c1c1;
+    margin-bottom: -1%;
+    /*margin-left: 1%;
+    margin-top: 1%;
+    border: 1px solid #73AD21;*/
+}
+#panelCanvas{
+   margin-top: -2%; 
+}
+
+/* -------------------------- Radius Button Rooms -------------------------- */
+
+#boton1{
+   display:none;
+}
+
+#boton2{
+   display:none;
+}
+
+#boton3{
+   display:none;
+}
+
+#boton4{
+   display:none;
+}
+
+#boton5{
+   display:none;
+}
+
+#boton6{
+   display:none;
+}
+
+/* -------------------------- Radius Button Sculptures -------------------------- */
+
+#boton7{
+   display:none;
+}
+
+#boton8{
+   display:none;
+}
+
+#boton9{
+   display:none;
+}
+
+#boton10{
+   display:none;
+}
+
+#boton11{
+   display:none;
+}
+
+#boton12{
+   display:none;
+}
+
+/* -------------------------- Auxiliar-------------------------- */
+aside {
+    width : 500px;
+    margin-top : -200px;
+    margin-left: 500px;
+    float : right;
+}
+
+/* -------------------------- Boton de creación de X3D -------------------------- */
+#botonX3D{
+    display: inline-block;
+    line-height:31px;
+    margin-right: 5%;
+
+    width:288px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background-color: #d8ecf7;
+    border:solid 1px #b6c7cb;
+}
+
+/* -------------------- Pestañas de contenido ---------------------- */
+
+#tabs {
+  overflow: auto;
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: 56%;
+}
+
+#tabs li {
+    margin: 0;
+    padding: 0;
+    float : left;
+}
+
+#tabs a {
+    box-shadow: -4px 0 0 rgba(0, 0, 0, .2);
+    background: #ad1c1c;
+    background: linear-gradient(220deg, transparent 10px, #ad1c1c 10px);
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    color: #fff;
+    float: left;
+    font: bold 12px/35px 'Lucida sans', Arial, Helvetica;
+    height: 35px;
+    padding: 0 30px;
+    text-decoration: none;
+}
+
+#tabs a:hover {
+    background: #c93434;
+    background: linear-gradient(220deg, transparent 10px, #c93434 10px);     
+}
+
+#tabs a:focus {
+    outline: 0;
+}
+
+#tabs #current a {
+    background: #fff;
+    background: linear-gradient(220deg, transparent 10px, #fff 10px);
+    text-shadow: none;    
+    color: #333;
+}
+
+/* -------------------- Contenido de pestañas ---------------------- */
+/* ----------------- Formulario de información --------------------- */
+#content {
+    font-family: Arial;
+    font-size:14px;
+    background-color: #d8ecf7;
+    border-radius: 0 2px 2px 2px;
+    box-shadow: 0 2px 2px #000, 0 -1px 0 #fff inset;
+    width:800px; 
+    height: 500px;
+    margin-right: 1%;
+    float : right;
+}
+
+#viewElement{
+     margin-bottom: -5px;
+}
+
+#content #tab1 h1{
+    font-family:Arial;
+    font-size:18px;
+    background-color: #d8ecf7;
+    margin-left: 25%;
+}
+
+#content #tab1 label {
+    margin-left: 2%;
+    display: inline-block;
+    width: 100px;
+    color:#6c6c6c;
+}
+
+#content #tab1 input{
+    display: inline-block;
+    line-height:31px;
+    margin-right: 5%;
+}
+
+#content #tab1 input,textarea{
+    width:288px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background-color:rgba(255,255,255,.6);
+    border:solid 1px #b6c7cb;
+}
+
+#content #tab1 textarea{
+    margin-left: 2%;
+    width: 770px;
+    resize: none;
+}
+
+#content #tab1 .row{
+    margin:5px;
+}
+
+#content #tab1 #boxTextInfo{
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+#content #tab1 #botonesFicha{  
+    margin-left: 12.5%;
+}
+/*
+#content #tab2 #the_scene{
+    width:98%; height:98%;
+    margin:1%;
+    border: none;
+    position: relative;
+}*/
+
+#content #tab3 h1{
+    font-family:Arial;
+    font-size:18px;
+    background-color: #d8ecf7;
+    margin-left: 25%;
+}
+
+#content #tab3 label {
+    margin-left: 2%;
+    display: inline-block;
+    width: 100px;
+    color:#6c6c6c;
+}
+
+#content #tab3 input{
+    display: inline-block;
+    line-height:31px;
+    margin-right: 5%;
+    width:288px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background-color:rgba(255,255,255,.6);
+    border:solid 1px #b6c7cb;
+}
+
+#content #tab3 .row{
+    margin:5px;
+}
+
+#content #tab3 #FPCscene{
+    width:98%; height:50%;
+    margin: 1%;
+    border: none;
+    position: relative;
+}
+
+/* --------------- Section de las columnas ------------------ */
+#columna1{
+    margin-top: 1%;
+}
+#columna2{
+    margin-top: 1%;
+    
+}
+
+/* --------------- Section de la ficha tecnica ------------------ */
+#panelInfo{
+    margin-top: -1%;
+}
+
+.img-responsive{
+    border: 1px solid black;
+}
+
+#the_monument_viewer{
+    width:100%; height:100%;
+}
+
+#formSculpture{
+    margin-top: 1%;
+}
+
+/* -------------- Pestaña Escena ------------------------- */
+#the_scene{
+    margin-top: 1%;
+    width:100%; height:100%;
+    border: 1px solid black;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Google Chrome y Safari */
+    border-radius: 5px; 
+}
+
+/* -------------- Pestaña Cámara primera persona ------------------------- */
+ #VRCamera{
+    margin-top: 1%;
+    width:100%; height:100%;
+    border: 1px solid black;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Google Chrome y Safari */
+    border-radius: 5px; 
+ }
+
+
+/* --------------- Slider de Esculturas ------------------ */
+
+#collapseOne{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: -3%;
+}
+
+/* --------------- Slider de Cuadros ------------------ */
+
+#collapseTwo{
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: -3%;
+}
+
+/* -- Elementos canvas ocultos -- */
+#hidden_level {
+    visibility: hidden;
+}
+
+/* -- X3D RVCamera -- */
+#FirstCameraVR{
+    width:100%; height:100%;
+}
+
+#FirstCameraVRIndex{
+    width:100%; height:600px;
+}
+
+#botonPantallaVR{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* ---- X3D SceneCamera ----- */
+#sceneModal {
+    min-height: 570px;
+}
+
+#botonLogin{
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+#botonRegister{
+    margin-top: 2px;
+    margin-right: 10px;
+}
